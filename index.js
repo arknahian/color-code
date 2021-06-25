@@ -44,21 +44,6 @@ for (let i = 0; i < openPopUp.length; i++) {
       });      
 }
 
-
-// #f6e58d
-var beekeeper = document.getElementById("beekeeper");
-
-
-
-
-
-
-
-
-
-
-
-
 // const element = document.getElementsByClassName("btn-copy");
 // for (let i = 0; i < element.length; i++) {
 //     const copyButton = element[i];
@@ -230,11 +215,6 @@ function Clipboard_CopyTo(value) {
     Clipboard_CopyTo('#686de0');
   }
 
-
-
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -275,10 +255,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy11').onclick = function() {
     Clipboard_CopyTo('#c7ecee');
   }
-
-
-
-  
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -291,18 +267,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy12').onclick = function() {
     Clipboard_CopyTo('#6ab04c');
   }
-
-
-
-
-
-
-
-
-
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -315,9 +279,7 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy13').onclick = function() {
     Clipboard_CopyTo('#eb4d4b');
   }
-
-
-  function Clipboard_CopyTo(value) {
+function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
     document.body.appendChild(tempInput);
@@ -343,9 +305,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy15').onclick = function() {
     Clipboard_CopyTo('#f9ca24');
   }
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -358,10 +317,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy16').onclick = function() {
     Clipboard_CopyTo('#dff9fb');
   }
-
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -374,9 +329,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy17').onclick = function() {
     Clipboard_CopyTo('#badc58');
   }
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -389,9 +341,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy18').onclick = function() {
     Clipboard_CopyTo('#ff7979');
   }
-
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
@@ -404,8 +353,6 @@ function Clipboard_CopyTo(value) {
   document.querySelector('#copy19').onclick = function() {
     Clipboard_CopyTo('#ffbe76');
   }
-
-
   function Clipboard_CopyTo(value) {
     var tempInput = document.createElement("input");
     tempInput.value = value;
